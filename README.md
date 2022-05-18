@@ -19,13 +19,13 @@ The chunks have a population value, this allows multiple players to correctly oc
 * Cell Noise Map     
 I've included a previous project that impliments a cell noise map to allow each chunk to have flow of density (example: Population/density of buildings, resources or whatever) between the chunks. This prevents one chunk with maximum density to be right next to a empty chunk. The current issue with this idea is that once the player goes beyond the set width of the cellmap (each chunk being a single value inside of the 2d array which stored the cell map pixel values) the value returns the same every time. It's possible to wrap it all, but I haven't decided if I want that in my games. Even Minecraft has a limit.
 
-![Cell Noise Map Project](link goes here for the project)
-![Image of Game](link goes here)
+[Cell Noise Map Project](https://github.com/BrandonJarrell/Unity-CellNoiseMap)            
+![Image of Game](https://github.com/BrandonJarrell/Unity-CellNoiseMap/blob/main/CellNoiseMap.gif)
 
 
-* Populate Buildings
+* Populate Buildings      
 I wanted procedural buildings too, I started the process and the building quantity is based on the chunks cell value in acoordance with the cell noise map value.    
-My goal is that the buildings origin cube is place, its width and length are randomized. Then there is a chance rolled to add another slightly smaller randomized cude/rectangle touching it so it is unique. the process is completely based off of its chunk population however it still has a bit of randomness too it allowing you to find buildings out in the middle of nowhere. The issue is that its a mathmatical nightmare to make sure no building goes over its boundaries and overlap another chunk OR overlaps another building. It is completely possible, I just have other projects that I'm more interested it and I will do that AFTER I set in stone how my terrain will work and its width of the chunks. The buildings would be in charge of generating themselves based on the foundations I give them
+My goal is that the buildings origin cube is place, its width and length are randomized. Then there is a chance rolled to add another slightly smaller randomized cude/rectangle touching it so it is unique. the process is completely based off of its chunk population however it still has a bit of randomness too it allowing you to find buildings out in the middle of nowhere. The issue is that its a mathmatical nightmare to make sure no building goes over its boundaries and overlap another chunk OR overlaps another building. It is completely possible, I just have other projects that I'm more interested it and I will do that AFTER I set in stone how my terrain will work and its width of the chunks. The buildings would be in charge of generating themselves based on the foundations I give them.
 
 
 
