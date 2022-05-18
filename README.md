@@ -1,6 +1,7 @@
 # Unity-Procedural-Terrain
 This was a proof of concept for several game ideas I have. Procedural games in my mind provide a better replayability experience
-and I like to capture this whenever possible.
+and I like to capture this whenever possible.        
+- I left my commented out code and notes so help convey all information I have
 
 # Functionality
 The terrain is currently built using "chunks" similar to the concept of Minecraft chunks. This is for effeciency because the "view distance" or loading distance
