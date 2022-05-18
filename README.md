@@ -14,7 +14,7 @@ These chuncks can also activate/generate other GameObjects once activated/genera
 The created chunk is supplied by a prefab, which can be any GameObject for easy modification. It will work with anything as long as the width is the same as the supplied with in the ChunkController    
 The chunks have a population value, this allows multiple players to correctly occupy the same chunks and when one player leaves, it does not disable the map below the other player.
 
-![Image of Game](link goes here)
+![Image of Game](https://github.com/BrandonJarrell/Unity-Procedural-Terrain/blob/main/player_movement.gif)
 
 * Cell Noise Map     
 I've included a previous project that impliments a cell noise map to allow each chunk to have flow of density (example: Population/density of buildings, resources or whatever) between the chunks. This prevents one chunk with maximum density to be right next to a empty chunk. The current issue with this idea is that once the player goes beyond the set width of the cellmap (each chunk being a single value inside of the 2d array which stored the cell map pixel values) the value returns the same every time. It's possible to wrap it all, but I haven't decided if I want that in my games. Even Minecraft has a limit.
